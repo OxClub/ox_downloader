@@ -1,3 +1,5 @@
+@file:OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
+
 package com.oxclub.universaldownloader.ui.onboarding
 
 import android.Manifest

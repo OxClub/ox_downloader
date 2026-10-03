@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Universal Downloader</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_browser">Browser</string>
+    <string name="nav_settings">Settings</string>
+    <string name="action_analyze">Analyze</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_details">Details</string>
+    <string name="action_download">Download</string>
+    <string name="action_download_caps">DOWNLOAD</string>
+    <string name="action_ignore">Ignore</string>
+    <string name="action_move">Move</string>
+    <string name="action_move_top">Move to top</string>
+    <string name="action_next">Next</string>
+    <string name="action_ok">OK</string>
+    <string name="action_open">Open</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_share">Share</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_view_all">View all</string>
+    <string name="action_yes">Yes</string>
+    <string name="add_download_title">Add download</string>
+    <string name="already_in_downloads">This URL is already in your downloads.</string>
+    <string name="analysis_section">URL ANALYSIS</string>
+    <string name="analysis_title">URL analysis</string>
+    <string name="analyzing_url">Analyzing URL…</string>
+    <string name="batch_hint">One URL per line</string>
+    <string name="batch_import">Import text file</string>
+    <string name="batch_page">This is a web page, not a file. Analyze it on its own to pick resources.</string>
+    <string name="batch_start">Analyze &amp; add</string>
+    <string name="batch_title">Batch download</string>
+    <string name="batch_view_downloads">View downloads</string>
+    <string name="browser_url_hint">Search or enter address</string>
+    <string name="cancel_all">Cancel all</string>
+    <string name="cat_compressed">Compressed</string>
+    <string name="cat_documents">Documents</string>
+    <string name="cat_everything">Everything</string>
+    <string name="cat_images">Images</string>
+    <string name="cat_music">Music</string>
+    <string name="cat_others">Others</string>
+    <string name="cat_programs">Programs</string>
+    <string name="cat_subtitles">Subtitles</string>
+    <string name="cat_videos">Videos</string>
+    <string name="cd_add_download">Add download</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_clear">Clear</string>
+    <string name="cd_enter_url">Enter URL</string>
+    <string name="cd_forward">Forward</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_reload">Reload</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_sort">Sort</string>
+    <string name="channel_progress">Download progress</string>
+    <string name="channel_result">Download results</string>
+    <string name="channel_service">Background downloads</string>
+    <string name="checksum_optional">Checksum (optional MD5 / SHA-1 / SHA-256)</string>
+    <string name="checksum_verified">Verified (%1$s)</string>
+    <string name="choose_folder">Choose folder</string>
+    <string name="clear_completed">Clear completed</string>
+    <string name="clear_history_message">Removes completed, failed and cancelled entries from the list. Downloaded files are not deleted.</string>
+    <string name="clipboard_detected">URL detected</string>
+    <string name="confirm_extract">Look for downloadable resources on this page?</string>
+    <string name="contact_title">Contact</string>
+    <string name="delete_list_only">Remove from list</string>
+    <string name="delete_title">Delete download?</string>
+    <string name="delete_with_file">Delete file too</string>
+    <string name="details_missing">This download no longer exists.</string>
+    <string name="details_title">Download details</string>
+    <string name="dialog_cannot_start">Cannot start download</string>
+    <string name="discovered_resources">FOUND %1$d RESOURCES</string>
+    <string name="download_all">Download all</string>
+    <string name="download_available">DOWNLOAD AVAILABLE</string>
+    <string name="download_selected">Download selected (%1$d)</string>
+    <string name="downloaded_unknown">Downloaded: %1$s • Size: Unknown</string>
+    <string name="dup_rename">Rename (video (1).mp4)</string>
+    <string name="dup_replace">Replace</string>
+    <string name="dup_skip">Skip</string>
+    <string name="empty_downloads_message">Paste a link above or share one to Universal Downloader.</string>
+    <string name="empty_downloads_title">No downloads yet</string>
+    <string name="empty_errors_message">Failed and cancelled downloads appear here.</string>
+    <string name="empty_errors_title">No failed downloads</string>
+    <string name="empty_finished_message">Completed downloads appear here.</string>
+    <string name="empty_finished_title">Nothing finished yet</string>
+    <string name="empty_search_message">Try a different file name, URL or type.</string>
+    <string name="empty_search_title">No matching downloads</string>
+    <string name="err_blocked_target">Local and private network addresses are blocked. You can allow them in Settings &gt; Network.</string>
+    <string name="err_cannot_open">No app found to open this file, or the file is no longer available.</string>
+    <string name="err_checksum">Checksum mismatch — the downloaded file does not match the expected digest.</string>
+    <string name="err_checksum_format">Checksum must be a 32 (MD5), 40 (SHA-1) or 64 (SHA-256) character hex string.</string>
+    <string name="err_connect">Could not connect to the server.</string>
+    <string name="err_folder">The download folder is not accessible. Choose a folder in Settings.</string>
+    <string name="err_http_401">Authentication required (HTTP 401).</string>
+    <string name="err_http_403">Server denied access with HTTP 403.</string>
+    <string name="err_http_404">Server returned 404 — file not found.</string>
+    <string name="err_http_410">The file is gone (HTTP 410).</string>
+    <string name="err_http_429">Too many requests (HTTP 429). Try again later.</string>
+    <string name="err_http_5xx">Server error (HTTP %1$d).</string>
+    <string name="err_http_other">Server returned HTTP %1$d.</string>
+    <string name="err_io">Network error: %1$s</string>
+    <string name="err_move_failed">Could not move the file.</string>
+    <string name="err_no_request">No URL to analyze.</string>
+    <string name="err_premature">The connection closed before the download finished.</string>
+    <string name="err_range">Server does not support resume or segmented downloading for this file.</string>
+    <string name="err_redirect_limit">Redirect limit exceeded.</string>
+    <string name="err_rename_failed">Could not rename the file.</string>
+    <string name="err_ssl">Secure connection failed (SSL/TLS error).</string>
+    <string name="err_storage">Not enough storage.
+
+Required:
+%1$s
+
+Available:
+%2$s</string>
+    <string name="err_timeout">Connection timed out.</string>
+    <string name="err_unexpected">Unexpected error (%1$s).</string>
+    <string name="err_unknown_host">Server not found. Check the address and your connection.</string>
+    <string name="err_url_credentials">URLs containing a user name or password are not supported.</string>
+    <string name="err_url_empty">Enter a URL.</string>
+    <string name="err_url_invalid">URL is invalid.</string>
+    <string name="err_url_scheme">Only http:// and https:// links are supported.</string>
+    <string name="eta_format">ETA %1$s</string>
+    <string name="eta_unavailable">ETA unavailable</string>
+    <string name="faq_title">FAQ</string>
+    <string name="file_found">FILE FOUND</string>
+    <string name="get_started">Get started</string>
+    <string name="help_title">Help</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="label_avg_speed">Average speed</string>
+    <string name="label_checksum">Checksum</string>
+    <string name="label_completed">Completed</string>
+    <string name="label_content_type">Type (MIME)</string>
+    <string name="label_created">Created</string>
+    <string name="label_destination">Location</string>
+    <string name="label_downloaded">Downloaded</string>
+    <string name="label_duration">Download duration</string>
+    <string name="label_eta">Time remaining</string>
+    <string name="label_final_url">Final URL</string>
+    <string name="label_original_url">URL</string>
+    <string name="label_parts">Parts</string>
+    <string name="label_resume">Resume support</string>
+    <string name="label_server">Server</string>
+    <string name="label_speed">Speed</string>
+    <string name="label_started">Started</string>
+    <string name="label_url">URL</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी (Hindi)</string>
+    <string name="language_system">System default</string>
+    <string name="licenses_title">Open source licenses</string>
+    <string name="manifest_detected">Streaming manifest detected</string>
+    <string name="manifest_explained">This link is an HLS/DASH streaming playlist made of many small segments. Universal Downloader downloads normal files only, so it will not download this.</string>
+    <string name="moved_ok">File moved</string>
+    <string name="no_resources">No downloadable resources were found on this page.</string>
+    <string name="no_resume_notice">Server does not support resume/segmented downloading.</string>
+    <string name="not_supported">Not supported</string>
+    <string name="notif_complete">Download complete</string>
+    <string name="notif_failed">Download failed</string>
+    <string name="notif_remaining">%1$s remaining</string>
+    <string name="onb1_title">Download anything you may access</string>
+    <string name="onb1_body">Paste or share a link. Universal Downloader inspects it and finds the real file.</string>
+    <string name="onb2_title">See before you download</string>
+    <string name="onb2_body">Pick exactly which files from a page to save. Nothing is guessed or faked.</string>
+    <string name="onb3_title">Fast and reliable</string>
+    <string name="onb3_body">Segmented downloads, pause and resume, retries and background downloading with notifications.</string>
+    <string name="onb4_title">Choose where files go</string>
+    <string name="onb4_body">Files are saved to your Downloads folder by default. You can pick another folder now or later.</string>
+    <string name="open_in_browser">Open in built-in browser to sign in</string>
+    <string name="paste_url_title">Paste a URL to download</string>
+    <string name="pause_all">Pause all</string>
+    <string name="privacy_title">Privacy policy</string>
+    <string name="recent_downloads">Recent Downloads</string>
+    <string name="rename_label">File name</string>
+    <string name="rename_title">Rename file</string>
+    <string name="resources_incomplete">Additional resources could not be discovered from the accessible page.</string>
+    <string name="resume_all">Resume all</string>
+    <string name="retrying">Retrying (%1$d/%2$d) in %3$d s…</string>
+    <string name="search_hint">Search downloads</string>
+    <string name="seconds_value">%1$d s</string>
+    <string name="section_about">ABOUT</string>
+    <string name="section_appearance">APPEARANCE</string>
+    <string name="section_browser">BROWSER</string>
+    <string name="section_download">DOWNLOAD</string>
+    <string name="section_language">LANGUAGE</string>
+    <string name="section_network">NETWORK</string>
+    <string name="section_privacy">PRIVACY</string>
+    <string name="section_storage">STORAGE</string>
+    <string name="select_all">Select all</string>
+    <string name="select_none">Select none</string>
+    <string name="setting_accent">Accent color</string>
+    <string name="setting_allow_local">Allow local network addresses</string>
+    <string name="setting_allow_local_desc">Needed for NAS or devices on your own network. Off by default for safety.</string>
+    <string name="setting_ask_before">Ask before downloading</string>
+    <string name="setting_ask_extract">Ask before extracting resources</string>
+    <string name="setting_ask_extract_desc">Confirm before scanning a web page for files.</string>
+    <string name="setting_auto_resume">Resume failed downloads</string>
+    <string name="setting_auto_resume_desc">Retry downloads that failed for temporary reasons when you are back online.</string>
+    <string name="setting_auto_start">Auto-start downloads</string>
+    <string name="setting_browser">Enable built-in browser</string>
+    <string name="setting_clear_history">Clear history</string>
+    <string name="setting_clear_temp">Clear temporary files</string>
+    <string name="setting_clipboard">Clipboard detection</string>
+    <string name="setting_clipboard_desc">Offer to download a URL you copied.</string>
+    <string name="setting_concurrent">Maximum simultaneous downloads</string>
+    <string name="setting_connect_timeout">Connection timeout</string>
+    <string name="setting_duplicates">If a file already exists</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_location">Download location</string>
+    <string name="setting_location_reset">Use default folder</string>
+    <string name="setting_no_urls">Do not store URLs</string>
+    <string name="setting_no_urls_desc">After completion only the website name is kept in history.</string>
+    <string name="setting_notifications">Download notifications</string>
+    <string name="setting_parts">Number of download parts</string>
+    <string name="setting_read_timeout">Read timeout</string>
+    <string name="setting_retry_count">Retry count</string>
+    <string name="setting_retry_delay">Retry delay</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_user_agent">User agent</string>
+    <string name="setting_wifi_only">Wi-Fi only</string>
+    <string name="setting_wifi_only_desc">When off, mobile data may be used.</string>
+    <string name="size_checking">Checking size…</string>
+    <string name="size_of">%1$s / %2$s</string>
+    <string name="size_unknown">Size unknown</string>
+    <string name="skipped_exists">Skipped: a file with this name already exists.</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_newest">Newest</string>
+    <string name="sort_oldest">Oldest</string>
+    <string name="sort_progress">Progress</string>
+    <string name="sort_size">Size</string>
+    <string name="status_analyzing">Analyzing</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_downloading">Downloading</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_queued">Queued</string>
+    <string name="status_verifying">Verifying / saving</string>
+    <string name="storage_file_count">Number of files</string>
+    <string name="storage_folder">Folder</string>
+    <string name="storage_folder_size">Download folder size</string>
+    <string name="storage_free">Free</string>
+    <string name="storage_summary">Used space, free space and download folder</string>
+    <string name="storage_title">Storage information</string>
+    <string name="storage_total">Total</string>
+    <string name="storage_used">Used</string>
+    <string name="supported">Supported</string>
+    <string name="tab_all">ALL</string>
+    <string name="tab_downloading">DOWNLOADING</string>
+    <string name="tab_error">ERROR</string>
+    <string name="tab_finished">FINISHED</string>
+    <string name="tab_paused">PAUSED</string>
+    <string name="temp_cleared">Freed %s of temporary files</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System (follow device)</string>
+    <string name="accent_violet">Violet</string>
+    <string name="accent_blue">Blue</string>
+    <string name="accent_teal">Teal</string>
+    <string name="accent_orange">Orange</string>
+    <string name="accent_pink">Pink</string>
+    <string name="url_hint">https://example.com/file.zip</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="waiting_for_network">Connection lost — waiting for network…</string>
+    <string name="waiting_for_wifi">Waiting for Wi-Fi…</string>
+    <string name="about_title">About</string>
+    <string name="about_description">Universal Downloader inspects links you give it, finds the real downloadable files and saves them reliably with pause, resume, retries and background downloading.</string>
+    <string name="about_legal">Only download content you are authorized to access. This app does not bypass DRM, paywalls, CAPTCHAs, logins or other access controls.</string>
+    <plurals name="items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="notif_active_downloads">
+        <item quantity="one">%d download active</item>
+        <item quantity="other">%d downloads active</item>
+    </plurals>
+    <string-array name="help_items">
+        <item>Paste, type or share a link, then tap Analyze to see what the server really offers, or Download to start right away.</item>
+        <item>When a link is a web page, the app lists the files it exposes (video, audio, images, documents, archives, subtitles…). Select the ones you want.</item>
+        <item>Pause, resume or cancel from the Downloads tab or the notification. Resume works when the server supports HTTP range requests.</item>
+        <item>Use the built-in browser for pages that need you to sign in; downloads the page starts are detected automatically.</item>
+        <item>Files are saved to Downloads/UniversalDownloader unless you choose another folder in Settings.</item>
+    </string-array>
+    <string-array name="faq_questions">
+        <item>Why does a download say resume is not supported?</item>
+        <item>Why are some resources missing from a web page?</item>
+        <item>Why was my download blocked?</item>
+        <item>Can it download streaming video (HLS/DASH)?</item>
+        <item>Where are my files?</item>
+    </string-array>
+    <string-array name="faq_answers">
+        <item>Some servers do not accept byte-range requests. Those files download in a single stream and restart from zero if interrupted.</item>
+        <item>Only links present in the page HTML are discovered. Content created by JavaScript, behind logins or protected by DRM is not extracted.</item>
+        <item>The server may require authentication (401/403), or the address may be a local/private network target, which is blocked unless allowed in Settings.</item>
+        <item>No. Segmented streaming playlists are detected and reported, but only regular files are downloaded.</item>
+        <item>In Downloads/UniversalDownloader, or the folder you selected in Settings &gt; Download location.</item>
+    </string-array>
+    <string-array name="privacy_paragraphs">
+        <item>Universal Downloader does not collect, transmit or sell personal data. There are no analytics or tracking libraries in this build.</item>
+        <item>The app only contacts the addresses you ask it to download from (and addresses found on those pages when you choose to download them).</item>
+        <item>Download history, settings and partial files are stored privately on your device. You can clear history and temporary files, or choose not to store URLs, in Settings &gt; Privacy.</item>
+        <item>Cookies are used only when you start a download from the built-in browser from a page you are signed in to. They are kept in the app’s private storage, never logged, and deleted when the download finishes.</item>
+        <item>If an ad provider is added to a future build, this policy will be updated before any data is shared.</item>
+    </string-array>
+    <string-array name="licenses">
+        <item>AndroidX, Jetpack Compose, Room, DataStore, WorkManager — Apache License 2.0</item>
+        <item>Kotlin and kotlinx.coroutines — Apache License 2.0</item>
+        <item>OkHttp and Okio — Apache License 2.0</item>
+        <item>jsoup — MIT License</item>
+        <item>Material Icons — Apache License 2.0</item>
+    </string-array>
+</resources>

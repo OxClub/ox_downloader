@@ -57,7 +57,7 @@ class NetworkTest {
                     path == "/named" -> MockResponse().setHeader("Content-Type", "application/zip")
                         .setHeader("Content-Disposition", "attachment; filename=\"../evil name.zip\"").setBody("PK")
                     path == "/page" -> MockResponse().setHeader("Content-Type", "text/html; charset=utf-8").setBody(
-                        """<html><head><title>T</title></head><body><a href="/file.bin">f</a><img src="/pic.jpg"><a href="/next.html">n</a></body></html>""",
+                        """<html><head><title>T</title></head><body><a href="/clip.mp4">f</a><img src="/pic.jpg"><a href="/next.html">n</a></body></html>""",
                     )
                     path == "/stream.m3u8" -> MockResponse().setHeader("Content-Type", "application/vnd.apple.mpegurl").setBody("#EXTM3U")
                     else -> MockResponse().setResponseCode(404)
@@ -137,7 +137,7 @@ class NetworkTest {
         val page = analyzer.analyze(url("/page"), emptyMap(), cfg) as AnalysisResult.Page
         val content = analyzer.loadPage(page.probe, emptyMap(), cfg)
         assertEquals("T", content.title)
-        assertTrue(content.resources.any { it.url.endsWith("/file.bin") })
+        assertTrue(content.resources.any { it.url.endsWith("/clip.mp4") })
         assertTrue(content.resources.any { it.category == FileCategory.IMAGE })
         assertFalse(content.resources.any { it.url.endsWith("next.html") })
     }

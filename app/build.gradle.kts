@@ -24,8 +24,21 @@ android {
         buildConfigField("String", "CONTACT_EMAIL", "\"$contact\"")
     }
 
+    signingConfigs {
+        create("release") {
+            val ksPass = System.getenv("KEYSTORE_PASSWORD")
+            if (ksPass != null) {
+                storeFile = file("release.jks")
+                storePassword = ksPass
+                keyAlias = System.getenv("KEY_ALIAS")
+                keyPassword = System.getenv("KEY_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")

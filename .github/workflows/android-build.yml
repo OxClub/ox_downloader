@@ -52,3 +52,22 @@ jobs:
         with:
           name: universal-downloader-debug-apk
           path: app/build/outputs/apk/debug/*.apk
+
+      - name: Decode keystore
+        if: github.event_name != 'pull_request'
+        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > app/release.jks
+
+      - name: Build signed release APK
+        if: github.event_name != 'pull_request'
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: ./gradlew assembleRelease --stacktrace
+
+      - name: Upload signed release APK
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: universal-downloader-release-apk
+          path: app/build/outputs/apk/release/*.apk
